@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+body{
+    height: 95vh; width: 95vw;
+    overflow: hidden;
+}
+
+img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+    .unpopped{
+        width: 3vw;
+    }
+
+    .popped{
+        width: 7vw;
+    }
+
+@media (orientation: portrait) {
+    .unpopped{
+        width: 12vw;
+    }
+    .popped{
+        width: 30vw;
+    }
+}
